@@ -1,4 +1,4 @@
-# Refine_Queries_RAG
+# rq-rag-api
 
 A small **RAG (Retrieval-Augmented Generation)** API: user questions are answered using chunks from your PDFs stored in **Qdrant**. Heavy work runs in the background via **Redis Queue (RQ)** so the HTTP server stays responsive.
 
